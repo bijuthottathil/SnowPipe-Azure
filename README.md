@@ -120,6 +120,12 @@ pipe is working fine. you can see fresh data loaded in the table
 
 ![image](https://github.com/user-attachments/assets/e943ef65-75ab-4fff-b8f8-02a0060a9e2f)
 
+
+if you go to Azure and check event details
+
+![image](https://github.com/user-attachments/assets/b0d9ca11-ab47-4b34-ae91-71f88d3eddb0)
+
+
 Happy coding... Happy learning...
 
 
