@@ -100,7 +100,28 @@ Next we will create snowpipe. As soon as any new file is loaded in the storage a
 ![image](https://github.com/user-attachments/assets/e531b10f-1d9e-4a57-a812-71d4dff07b1b)
 
 
-As soon as we loaded data in table, check the new entry added in queue we created in storage account
+To test our pipe, I deleted all contents in table
+
+![image](https://github.com/user-attachments/assets/911a070d-7d3f-4562-8bae-a7c34075ce13)
+
+
+And, removed csv file from the storage account
+
+![image](https://github.com/user-attachments/assets/3ae20f05-4090-43ef-83f8-45df618b096f)
+
+Now I am placing csv file in the container, so immediatley, it should load data in snowflake table
+
+![image](https://github.com/user-attachments/assets/02b69e58-7bf2-4739-84cf-b746ff7c3f28)
+
+pipe is working fine. you can see fresh data loaded in the table
+
+![image](https://github.com/user-attachments/assets/9d5e4f4e-e085-4174-90c9-518607b4df21)
+
+
+![image](https://github.com/user-attachments/assets/e943ef65-75ab-4fff-b8f8-02a0060a9e2f)
+
+Happy coding... Happy learning...
+
 
 
 
