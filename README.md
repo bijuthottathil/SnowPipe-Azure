@@ -42,6 +42,69 @@ Next we will create file format and stage
 ![image](https://github.com/user-attachments/assets/8b471749-6c89-40e8-9fa4-3d0bf3ac6715)
 
 
+![image](https://github.com/user-attachments/assets/45904b01-0c74-4fdb-b64c-906fb09af9e8)
+
+![image](https://github.com/user-attachments/assets/bef616cd-46a7-486f-bd0b-bf10256f82a3)
+
+Next step is to create notification setup in Azure and then create integration object in   snowflake
+
+
+![image](https://github.com/user-attachments/assets/b107f368-0cad-41a5-8d1c-96175defa997)
+
+![image](https://github.com/user-attachments/assets/3c9b1d1b-f0c6-41e5-a7db-e97d98e2f525)
+
+![image](https://github.com/user-attachments/assets/444bf628-5d23-42a1-9440-cde222507ec8)
+
+![image](https://github.com/user-attachments/assets/bb921670-4993-43f7-b663-9bab12afc9fe)
+
+![image](https://github.com/user-attachments/assets/bf8ac3d1-4938-454b-9237-def5ad0e7b01)
+
+We need to register EventGrid
+
+![image](https://github.com/user-attachments/assets/a62ad3fc-b7e4-47c6-a2f3-8063bd5d35e6)
+
+![image](https://github.com/user-attachments/assets/51fbd300-55c8-46f9-a2ce-084e25e97159)
+
+
+![image](https://github.com/user-attachments/assets/5e3bd44f-b932-4c3d-b630-22956f5c4248)
+
+
+![image](https://github.com/user-attachments/assets/fe4bc47e-3570-490c-b29a-84ed88bd9c3e)
+
+Click the url provided above and provide access
+
+![image](https://github.com/user-attachments/assets/5315a057-07af-4d43-b658-878d37e765ec)
+
+Rememeber to add another role access to queue in azure
+
+
+![image](https://github.com/user-attachments/assets/a76bfb64-2a0c-4278-aedb-beb8f12efd3c)
+
+Upload csv file
+
+![image](https://github.com/user-attachments/assets/5d0cbdfc-2530-41ca-9104-fac561e20a5b)
+
+
+![image](https://github.com/user-attachments/assets/48225d19-dea0-495c-863c-89506db4e730)
+
+
+![image](https://github.com/user-attachments/assets/d21754b1-ad9c-4f9b-8ca7-1e6792bc1068)
+
+Load data in to table
+
+![image](https://github.com/user-attachments/assets/411c3349-f647-4a0e-8cad-71dbcec27484)
+
+Next we will create snowpipe. As soon as any new file is loaded in the storage account, those data should be automatically add to above table we created
+
+
+![image](https://github.com/user-attachments/assets/e531b10f-1d9e-4a57-a812-71d4dff07b1b)
+
+
+As soon as we loaded data in table, check the new entry added in queue we created in storage account
+
+
+
+
 
 
 
